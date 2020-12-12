@@ -59,6 +59,7 @@ footer i {
 	margin-left: 45%;
 	font-size: 24px;
 }
+
 .footertext {
 	font-size: 24px;
 	margin-left: 40%;
@@ -77,13 +78,18 @@ footer i {
 #FooterFacebook {
 	width: 55px;
 	height: 50px;
-	margin-left: 5%;
+	margin-left: 8%;
 }
 #FooterInsta {
 	width: 60px;
 	height: 55px;
-	margin-left: 5%;
+	margin-left: 8%;
 }
+
+.lastDiv {
+	margin-left: 25%;
+}
+
 @media screen and (max-width: 1120px) {
 	nav a {
 		margin: 0px 12px;
@@ -99,4 +105,42 @@ footer i {
     .isteImage {
         margin-bottom: 55%;
     }
+}
+
+@media screen and (max-width:700px) {
+	.lastDiv {
+		margin-left: 10%;
+	}
+	#FooterFacebook {
+		margin-left: 5%;
+	}
+	#FooterInsta {
+		margin-left: 5%;
+	}
+}
+
+@media screen and (max-width:500px) {
+	.contact, .bottomlinks, .footertext {
+		font-size: 16px;
+	}
+	#havequestion {
+		font-size: 24px;
+	}
+	.footerlogo {
+		height: 100px;
+		width: 100px;
+		margin-top: 5%;
+	}
+	#FooterInsta {
+		width: 45px;
+		height: 45px;
+	}
+	#FooterFacebook {
+		width: 45px;
+		height: 45px;
+	}
+	#FooterLinkedIn {
+		width: 40px;
+		height: 40px;
+	}
 }
